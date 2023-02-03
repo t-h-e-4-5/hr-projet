@@ -1,0 +1,26 @@
+POST  http://127.0.0.1:5000/employee/add
+Content-Type: application/json
+
+{
+    "firstName" : "Bienggg",
+    "lastName"  : "Goodf",
+    "departmentId" : "1"
+}
+
+###
+
+POST  http://127.0.0.1:5000/department/add
+Content-Type: application/json
+
+{
+    "name" : "Securite",
+    "location"  : "Defitech" 
+}
+
+###
+POST  http://127.0.0.1:5000/project/add
+Content-Type: application/json
+
+{
+    "name" : "Flask-project",
+}
